@@ -43,8 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animal.cs" />
+    <Compile Include="ApplePlant.cs" />
+    <Compile Include="Chicken.cs" />
+    <Compile Include="Cow.cs" />
+    <Compile Include="Farm.cs" />
+    <Compile Include="IAnimal.cs" />
+    <Compile Include="IPlant.cs" />
+    <Compile Include="Plant.cs" />
+    <Compile Include="PotatoPlant.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProyectController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
