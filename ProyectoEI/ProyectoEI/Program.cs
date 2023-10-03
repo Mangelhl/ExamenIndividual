@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace ProyectoEI
 {
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            ProyectController proyectController = new ProyectController(1000.0M, 1);
+            proyectController.StartProyect();
         }
     }
 }

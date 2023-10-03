@@ -19,7 +19,7 @@ namespace ProyectoEI
 
         public override void Harvest()
         {
-           Console.WriteLine($"YOU HAVE HARVESTED {{Yield}} POTATOS.");
+           Console.WriteLine($"YOU HAVE HARVESTED {Yield} POTATOS.");
         }
     }
 }
